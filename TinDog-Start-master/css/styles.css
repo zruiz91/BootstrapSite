@@ -4,9 +4,7 @@ body {
 }
 
 
-.container-fluid {
-    padding: 7% 15%;
-}
+
 
 h1,
 h2,
@@ -38,6 +36,21 @@ p {
     line-height: 1.5;
 }
 
+/* Container Section */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.bg-color {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
 /* Navigation Bar */
 
 .navbar {
@@ -62,14 +75,9 @@ p {
 
 /* Title Section */
 
-#title {
-    background-color: #ff4c68;
-    color: #fff;
-    text-align: left;
-}
-
 #title .container-fluid {
     padding: 3% 15% 7%;
+    text-align: left;
 }
 /* Download Buttons */
 
@@ -91,7 +99,6 @@ p {
 
 #features {
     padding: 7% 15%;
-    background-color: #fff;
     position: relative;
 }
 
@@ -119,8 +126,7 @@ p {
 
 #testimonials {
     text-align: center;
-    background-color: #ff4c68;
-    color: #fff;
+    background-color: #ef8172;
 }
 
 .testimonial-text {
@@ -140,7 +146,7 @@ p {
 }
 
 #press {
-    background-color: #ff4c68;
+    background-color: #ef8172;
     text-align: center;
     padding-bottom: 3%;
 }
@@ -167,8 +173,6 @@ p {
 /* Call To Action */
 
 #cta {
-    background-color: #ff4c68;
-    color: #fff;
     text-align: center;
     padding: 7% 15%;
 
